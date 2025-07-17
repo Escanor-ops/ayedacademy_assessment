@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body{
+    font-family: "IBM Plex Sans Arabic", serif;
+    direction: rtl !important;
+}
+
+
+.tooltip *{
+    font-family: "IBM Plex Sans Arabic", serif !important;
+}
+
+.hero .end-section{
+    right: inherit;
+    left: 50px !important;
+}
+
+.steps .one-step{
+    padding: 80px 80px 0 0;
+    background-image: url("https://ui-themez.smartinnovates.net/items/ravo/freelancer/img/lines.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width:767px){
+    .steps .one-step{
+        padding: 25px 0 0 0!important;
+    }
+}
+
+.steps .one-step img{
+    object-position: right top !important;
+}
+
+footer li{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.hero:after {
+    content: '';
+    right: 40% !important;
+    -webkit-transform: translateX(50%) translateY(-50%) !important;
+    -ms-transform: translateX(50%) translateY(-50%) !important;
+    transform: translateX(50%) translateY(-50%) !important;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    /* transform: rotate(180deg); */
+    right: inherit;
+    left: -15px !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    /* transform: rotate(180deg); */
+    right: inherit;
+    right: -15px !important;
+}
+
+.nav-item{
+    font-size: 17px !important;
+}
+
+aside#sidebar{
+    left: inherit;
+    right: -270px;
+}
+
+aside#sidebar.active{
+    right: 0;
+}
+
+.number-order{
+    margin-left: unset;
+    margin-right: -50px !important;
+}
+
+.number-order .numb-curv {
+    position: relative;
+    padding: 15px;
+    border-radius: 40px 0 0 0;
+}
+
+.number-order .numb-curv .shap-left-top {
+    top: -20px;
+    left: unset;
+    right: -0px;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(180deg);
+}
+
+.number-order .numb-curv .shap-right-bottom {
+    bottom: -2px;
+    right: unset;
+    left: -22px;
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(180deg);
+}
+
+.courses .course .course-teachers div{
+    position: relative;
+    left: initial;
+    right: -15px;
+}
+
+.courses .course .course-teachers div:first-child{
+    right: 0 !important;
+    left: initial;
+}
+
+.lists.main .one-list{padding-left:unset;padding-right:30px}.lists.main .one-list .progressbar{left:unset;right:0}
+
+section.video img.cursor{
+    transform: rotate(90deg);
+}
+
+section.video .video-details:hover img.cursor{
+    transform: rotate(-45deg);
+}
+
+.navbar .dropdown-menu * {
+    text-align: right !important;
+}
+
+.accordion-button::after {
+    right: initial !important;
+    left: 17px !important;
+}
+
+.filters .filter *{
+    text-align: right !important;
+}
+
+@media(max-width:991px){
+    .customer-sidebar{
+        position: fixed !important;
+        left: initial;
+        right: -300px !important;
+        margin: 0;
+        height: 100vh !important;
+        width: 300px;
+        background-color: #fff;
+        box-shadow: -2px 0 20px #1b1b1b1a;
+        padding: 15px !important;
+        z-index: 99999 !important;
+        top: 0 !important;
+    }
+}
+
+.customer_sidebar_toggled{
+    left: initial;
+    right: 0 !important;
+}
+
+.contact-form .contact-info .info-title {
+    border-right: 4px solid #086ad8;
+    border-left: none;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.gender-toggle .radio-tile:before {
+    /* left: initial; */
+    /* left: 0.70rem; */
+}
+
+.courses .category-name {
+    left: initial;
+    right: 20px;
+}
